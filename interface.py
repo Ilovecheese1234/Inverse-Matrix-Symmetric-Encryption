@@ -6,7 +6,7 @@ import encryption
 def addTitle(window):
     title = LabelFrame(
         window,
-        text="IMAE Interface",
+        text="IMSE Interface",
         font=('Segoul',15,'bold'),
         fg="cyan",
         bg="black",
@@ -354,7 +354,7 @@ def addExecutionButton(window,x,receiverList,inputText,outputText):
 def init():
     window = Tk()
     window.geometry("900x700")
-    window.title("IMAE")
+    window.title("IMSE")
 
     window.config(
         bg="black",
